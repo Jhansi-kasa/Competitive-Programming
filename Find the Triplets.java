@@ -33,6 +33,8 @@ public class Solution {
                     j++;
             }
         }
+        if(res.size()==0)
+            System.out.println("No Triplet Found");
         for(List<Integer> l : res) {
             for(int num : l)
                 System.out.print(num+ " ");
